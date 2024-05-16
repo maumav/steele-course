@@ -1,1 +1,4 @@
-client >> servers >> web page output 
+client search >> servers >> web page output 
+
+backend = server side
+front end = client side
