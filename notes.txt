@@ -5,3 +5,5 @@ frontend = client side
 
 semantic = relating to meaning
     adds meaning to our markup 
+
+html Entity = characters with reserved codes
