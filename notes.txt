@@ -1,4 +1,7 @@
 client search >> servers >> web page output 
 
 backend = server side
-front end = client side
+frontend = client side
+
+semantic = relating to meaning
+    adds meaning to our markup 
