@@ -7,3 +7,14 @@ semantic = relating to meaning
     adds meaning to our markup 
 
 html Entity = characters with reserved codes
+
+other than divs, there are:
+    <section>
+    <article>
+    <nav> = contains links
+    <main> = dominant content 
+    <heaader>
+    <footer>
+    <aside>
+    <summary>
+    <details>
