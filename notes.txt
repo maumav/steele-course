@@ -19,11 +19,11 @@ other than divs, there are:
     <summary>
     <details>
 
-table elements include:
+table (represents tabular data) elements include:
     <table>
-    <td>
-    <tr>
-    <th>
+    <td> = data cell
+    <tr> = table row
+    <th> = header cell
     <thead>
     <tbody>
     <tfoot>
