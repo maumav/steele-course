@@ -9,8 +9,8 @@ semantic = relating to meaning
 html Entity = characters with reserved codes
 
 other than divs, there are:
-    <section>
-    <article>
+    <section> = standalone section/content
+    <article> = self-contained composition in a document
     <nav> = contains links
     <main> = dominant content 
     <heaader>
@@ -18,3 +18,14 @@ other than divs, there are:
     <aside>
     <summary>
     <details>
+
+table elements include:
+    <table>
+    <td>
+    <tr>
+    <th>
+    <thead>
+    <tbody>
+    <tfoot>
+    <colgroup>
+    <caption
