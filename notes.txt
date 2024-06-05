@@ -35,3 +35,7 @@ Forms
     We control where the request goes using the attribute called action."
     "We control which type of HTTP method"
         groups together iputs and submits to a specified destination
+        
+        If a button is outside a form, it will not work.
+
+    Where does the data go when we submit form?
