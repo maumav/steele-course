@@ -8,12 +8,18 @@
   <body>
     <h1>Forms Demo</h1>
 
-    <form action="/tacos">
-      <input type="text" placeholder="Username" />
-      <input type="password" placeholder="Password" />
-      <input type="color" />
-      <input type="number" placeholder="Number" />
-      <input type="time" />
+    <form action="/simpleForm">
+      <label for="username">Enter a Username:</label>
+      <input type="text" placeholder="Username" id="username" />
+
+      <label for="password">Enter Password</label>
+      <input type="password" placeholder="Password" id="password" />
+
+      <label for="color">Choose Color</label>
+      <input type="color" id="color" />
+
+      <label for="number">Enter a Number</label>
+      <input type="number" placeholder="Number" id="number" />
     </form>
   </body>
 </html>
