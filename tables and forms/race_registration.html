@@ -18,15 +18,23 @@
       </div>
 
       Select a Race:
-
-      <input type="radio" id="choose_race" name="choose_race" />
-      <label for="choose_race">Fun Run 5k</label>
-
-      <input type="radio" id="choose_race" name="choose_race" />
-      <label for="choose_race">Half Marathon</label>
-
-      <input type="radio" id="choose_race" name="choose_race" />
-      <label for="choose_race">Full Marathon</label>
+      <!--Having the same attribute values makes the radio button only be able to choose one.
+        Having individual values for each radio button makes it possible to select all radio button at once.
+    -->
+      <div>
+        <div>
+          <input type="radio" id="choose_race" name="choose_race" />
+          <label for="choose_race">Fun Run 5k</label>
+        </div>
+        <div>
+          <input type="radio" id="choose_race" name="choose_race" />
+          <label for="choose_race">Half Marathon</label>
+        </div>
+        <div>
+          <input type="radio" id="choose_race" name="choose_race" />
+          <label for="choose_race">Full Marathon</label>
+        </div>
+      </div>
     </form>
   </body>
 </html>
