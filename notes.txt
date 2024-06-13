@@ -39,3 +39,21 @@ Forms
         If a button is outside a form, it will not work.
 
     Where does the data go when we submit form?
+
+ROBCDEE Fanpage
+    add:
+    dogcdee
+    crane games
+    cringe moments
+    'exploring smaller towns'
+
+Exploring CSS 
+    Crucial:
+    Conceptual overview of CSS
+    Basic css syntax
+    Including styles correctly
+    color systems: rbg, hex, etc
+    font-family property 
+
+    Important:
+    common text properties
