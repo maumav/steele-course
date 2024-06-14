@@ -1,6 +1,9 @@
 h1 {
     color: whitesmoke;
     background-color: purple;
+    text-align: center;
+    font-weight: 400;
+  
 }
 
 h2 {
@@ -13,4 +16,8 @@ h3 {
 
 h4 {
     background-color: rgb(203, 171, 226);
+}
+
+p {
+    text-align: left;
 }
