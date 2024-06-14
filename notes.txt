@@ -47,7 +47,7 @@ ROBCDEE Fanpage
     cringe moments
     'exploring smaller towns'
 
-Exploring CSS 
+Exploring CSS / Cascading Style Sheets
     Crucial:
     Conceptual overview of CSS
     Basic css syntax
@@ -57,3 +57,23 @@ Exploring CSS
 
     Important:
     common text properties
+
+    To add style/appearance to the html 
+        <link rel="stylesheet" href="styles.css">
+
+RGB 
+    0 to 255 
+    r, g, b
+
+Hexadecimal
+    base 16
+    f = 15 in decimal
+    0,1,2,3,4
+    5,,7,8,9
+    A,B,C,D,E,F
+
+    #FFFF00
+    red green blue
+    ff   ff    00
+
+    = yellow
