@@ -3,6 +3,7 @@ h1 {
     background-color: purple;
     text-align: center;
     font-weight: 400;
+    letter-spacing: 20px;
   
 }
 
@@ -20,4 +21,6 @@ h4 {
 
 p {
     text-align: left;
+    line-height: 2;
+    background-color: rgba(213, 195, 223, 0.685);
 }
