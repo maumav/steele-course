@@ -24,3 +24,11 @@ p {
     line-height: 2;
     background-color: rgba(213, 195, 223, 0.685);
 }
+
+#ver_1 {
+    background-color: rgba(185, 170, 194, 0.685);
+}
+
+table {
+    background-color: rgba(185, 170, 194, 0.685);
+}
