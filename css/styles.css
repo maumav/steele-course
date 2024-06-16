@@ -1,3 +1,9 @@
+h1 {
+    color: rgb(179, 67, 179);
+    font-size: 100px;
+    text-align: center;
+}
+
 h2 {
     color: teal;
     background-color: plum;
@@ -11,4 +17,5 @@ button {
 
 p {
     color: olives;
+
 }
