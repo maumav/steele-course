@@ -8,15 +8,20 @@ h1 {
 h2 {
     color: teal;
     background-color: plum;
+    letter-spacing: 3px;
 }
 
 button {
-    color: magenta;
-    background-color: cyan;
+    color: #ee6595;
+    background-color: #70C1A4;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
 
 }
 
 p {
-    color: olives;
-
+    border: solid 15px #369EC9;
+    border-style: double;
+    background-color: #C96136;
 }
