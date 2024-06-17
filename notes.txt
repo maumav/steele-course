@@ -77,3 +77,16 @@ Hexadecimal
     ff   ff    00
 
     = yellow
+
+CSS Selectors
+        element Selectors
+    class Selectors
+    id Selectors
+    descendent selector 
+    css specificity
+
+    adjacent selector
+    direct descendent selector 
+    attribute selector
+    pseudo selector
+    pseudo classes 
