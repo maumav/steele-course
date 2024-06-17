@@ -90,3 +90,5 @@ CSS Selectors
     attribute selector
     pseudo selector
     pseudo classes 
+
+coolors color palette website
