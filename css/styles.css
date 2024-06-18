@@ -25,3 +25,13 @@ p {
     border-style: double;
     background-color: #C96136;
 }
+
+h3 {
+    color: #9a031e;
+}
+
+.list {
+    border: 10px solid #1c8ba7;
+    border-style: double;
+    background-color: #fb8b24;
+}
