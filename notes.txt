@@ -91,4 +91,13 @@ CSS Selectors
     pseudo selector
     pseudo classes 
 
+
+descendent selector
+    li a {
+        color: teal;
+    }
+
+    <!-- will select all anchor tags that are nested inside li. Uses space. -->
+
+
 coolors color palette website
