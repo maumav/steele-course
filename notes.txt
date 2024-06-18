@@ -112,7 +112,12 @@ direct child
     select only the li that are direct children of a div element
 
 attribute selector
+    input[type="text"] {
+        width: 300px;
+        color: yellow;
+    }
 
+    select all input elements where the type attribute is set to 'text'
 
 
 coolors color palette website
