@@ -99,5 +99,20 @@ descendent selector
 
     <!-- will select all anchor tags that are nested inside li. Uses space. -->
 
+adjacent selector / combinators 
+    h1 + p {
+        color: red;
+    }
+
+direct child 
+    div > li {
+        color: white;
+    }
+
+    select only the li that are direct children of a div element
+
+attribute selector
+
+
 
 coolors color palette website
