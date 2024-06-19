@@ -22,6 +22,11 @@ h2 {
     letter-spacing: 3px;
 }
 
+div.h2mid{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 button {
     color: #ee6595;
     background-color: #70C1A4;
