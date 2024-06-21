@@ -53,3 +53,15 @@ h3 {
     border-style: double;
     background-color: #fb8b24;
 }
+
+th {
+    background-color: #bde0fe;
+}
+
+td {
+    background-color: #ffafcc;
+}
+
+table {
+    border: 3px solid #cdb4db;
+}
