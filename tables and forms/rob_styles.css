@@ -1,23 +1,21 @@
-/*
+
 .imghead {
     font-weight: 400;
     letter-spacing: 10px;
     background-image: url(https://images.unsplash.com/photo-1525230071276-4a87f42f469e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-   height: 800px;
-   background-size: 100%;
-   background-repeat: no-repeat;
+   height: 600px;
+   background-size: 1000px;
+   background-repeat: repeat;
+   background-position: center;
   
 
 }   
- */
-  
-.img0 {
-   
-    background-image: url(https://images.unsplash.com/photo-1525230071276-4a87f42f469e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    background-repeat: repeat;
-    
-}
 
+h1 {
+    display: flex;
+
+}
+  
 .img1 {
 
 }
