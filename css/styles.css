@@ -22,10 +22,21 @@ h2 {
     letter-spacing: 3px;
 }
 
-div.h2mid{
+.h2first {
     display: flex;
     justify-content: center;
-    width: 100%;
+}
+
+.h2mid{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+.h2last {
+    display: flex;
+    justify-content: flex-end;
 }
 
 button {
