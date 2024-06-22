@@ -13,12 +13,13 @@
 
 h1 {
     display: flex;
-
+    justify-content: center;
+    color: purple;
+    background-color: rgb(223, 178, 215);
+    font-size: 50px;
+    letter-spacing: 10px;
 }
-  
-.img1 {
 
-}
 
 h2 {
    background-color: rgb(209, 167, 240);
