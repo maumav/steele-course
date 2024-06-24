@@ -66,6 +66,10 @@ h3 {
     color: #9a031e;
 }
 
+a {
+    text-decoration: none;
+}
+
 .list {
     border: 10px solid #1c8ba7;
     border-style: double;
