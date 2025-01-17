@@ -26,3 +26,7 @@ ul {
 a {
     text-decoration: none;
 }
+
+.post:nth-of-type(1) {
+    background-color: rgb(230, 94, 211);
+}
