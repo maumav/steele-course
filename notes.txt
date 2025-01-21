@@ -119,5 +119,37 @@ attribute selector
 
     select all input elements where the type attribute is set to 'text'
 
+Pseudo classes
+    "modifiers, keyword added to a selector that specifies a special state of the selected elements"
+        :active
+        :checked
+        :first
+        :first-child
+        :hover
+        :not()
+        :nth-child()
+        nth-of-type()
+
+Pseudo Elements 
+    "keyword added to a selector that lets you style a particular part of selected element(s)"
+        ::after
+        ::before
+        ::first-letter
+        ::selection
+
+Cascade 
+    "order of styles declared matters"
+
+Specificity
+    What Happens when conflicting styles target the same elements?
+    -order matters 
+    "specificity is how the browser decides which rules to apply when multiple
+    rules could appy to the same element. The more specific the selector "wins""
+        formula specificity
+        id >
+        class, attributes, pseudo-classes >
+        element, pseudo-elements
+
+
 
 coolors color palette website
