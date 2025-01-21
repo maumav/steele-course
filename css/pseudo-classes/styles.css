@@ -30,3 +30,15 @@ a {
 .post:nth-of-type(1) {
     background-color: rgb(230, 94, 211);
 }
+
+h4::first-letter {
+    font-size: 60px;
+}
+
+.big-para::first-line {
+    color: purple;
+}
+
+.big-para::selection {
+    background-color: aquamarine;
+}
