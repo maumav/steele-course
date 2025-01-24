@@ -1,0 +1,21 @@
+h1  {
+    background-color: #515EA6;
+    width: 100px;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+}
+
+#one {
+    background-color: #F2CB05;
+}
+
+#two {
+    background-color: #F29F05;
+}
+
+#three {
+    background-color: #F27127;
+}
