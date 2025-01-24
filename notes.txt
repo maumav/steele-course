@@ -150,6 +150,33 @@ Specificity
         class, attributes, pseudo-classes >
         element, pseudo-elements
 
+Inline Styles 
+    style inside index.html file
+
+    !important 
+    overrides declaration
+
+
+CSS inheritance
+    if body color: purple, then text inside will inherit the purple color. If there was no 
+    declaration of specific element. 
+    But if specific element has declaration, the body inherit will be overwritten.
+
+    style declaration
+
+CSS Box Model
+
+    border and border-radius
+
+        border-radius makes the corners round 
+
+        three important properties
+            i. border-width
+            ii.border-color
+            iii. border-style
+
+
+
 
 
 coolors color palette website
