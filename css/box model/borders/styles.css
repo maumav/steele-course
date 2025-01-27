@@ -1,6 +1,9 @@
 h1  {
     background-color: #515EA6;
     width: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    margin: 0px
 }
 
 div {
@@ -13,7 +16,9 @@ div {
     border-width: 5px;
     border-color: black;
     border-style: solid;
-    box-sizing: border-box;
+  
+    padding-right: 50px;
+    margin: 20px 30px 40px 5px
 }
 
 #two {
@@ -23,7 +28,7 @@ div {
     border-style: dotted;
     border-left-color: purple;
     border-left-width: 5px;
-    box-sizing: border-box;
+   
 
 
 }
@@ -31,5 +36,9 @@ div {
 #three {
     background-color: #F27127;
     border: 4px solid black;
-    box-sizing: border-box;
+   
+}
+
+button {
+    padding: 10px 20px;
 }
