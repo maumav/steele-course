@@ -22,3 +22,15 @@ div {
     margin: 30px;
 }
 
+section {
+    background-color: rgb(54, 54, 54);
+    width: 800px;
+    height: 800px;
+}
+
+.div-2 {
+    background-color: aqua;
+    width: 50%;
+    height: 50%;
+}
+
