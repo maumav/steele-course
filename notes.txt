@@ -175,8 +175,42 @@ CSS Box Model
             ii.border-color
             iii. border-style
 
+        top, right, bottom, left
+
+    Padding
+        between content box and border
+
+Display Property
+    i. inline 
+    ii. block 
+    iii. inline-block
+
+        Headoing elements are by default block elements.
 
 
+CSS Units 
 
+    Relative 
+    - em
+    - rem 
+    - vh
+    - vw
+    - %
+
+    Absolute
+    - px
+    - pt 
+    - cm 
+    - in 
+    - mm 
+
+    percentage are always relative to some other value
+
+    em  
+       In font sizes, 1em equals the font size of parent.
+       2em equals twice the font size of the parent.
+
+       with other properties, 1em is equal o the computed font size of element itself.
+        
 
 coolors color palette website
