@@ -10,3 +10,30 @@ div {
 #middle {
     background-color: brown;
 }
+
+#section #middle {
+    position: static;
+    top: 100px;
+}
+
+#relative #middle {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+#absolute {
+    position: relative;
+}
+
+#absolute #middle  {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#fixed #middle {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
