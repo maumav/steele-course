@@ -1,0 +1,28 @@
+h1 {
+    background-color: palevioletred;
+    border: 5px solid black;
+    color: rgb(37, 219, 13);
+    padding: 0.7em;
+    width: 300px;
+    font-size: 1.8em;
+    text-align: center;
+    margin: 20px auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+
+section:first-of-type h1:nth-of-type(1) {
+    transform: rotate(45deg);
+}
+
+section:first-of-type h1:nth-of-type(2) {
+    transform: scale(0.5)
+}
+
+section:first-of-type h1:nth-of-type(3) {
+    transform: translateX(300px);
+}
+
+section:first-of-type h1:nth-of-type(4) {
+    transform: translate(-500px);
+}
