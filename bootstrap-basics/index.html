@@ -36,11 +36,19 @@
         <button class="btn btn-warning">Three</button>
       </div>
       <h3>Alerts</h3>
-      <div class="alert alert-danger">
-        DANGER!
-        <button aria-label="close" class="close" data-dismiss="alert">
-          <span aria-hidden="true">&times;</span>
-        </button>
+      <div class="alert alert-warning d-flex align-items-center" role="alert">
+        <svg class="bi flex-shrink-0 me-2" role="img" aria-label="Warning:">
+          <use xlink:href="#exclamation-triangle-fill" />
+        </svg>
+        <div>
+          An example warning alert with an icon
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="alert"
+            aria-label="Close"
+          ></button>
+        </div>
       </div>
       <h2 class="display-4">Typography</h2>
       <p class="lead">
