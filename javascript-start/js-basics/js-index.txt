@@ -1,0 +1,9 @@
+section 14 
+    primitive types: 
+        number 
+        string 
+        boolean 
+        null 
+        undefined 
+        symbol 
+        BigInt
