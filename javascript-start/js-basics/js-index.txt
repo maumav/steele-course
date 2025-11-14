@@ -7,3 +7,21 @@ section 14
         undefined 
         symbol 
         BigInt
+
+
+Numbers types:
+    positive
+    negative
+    whole numbers (int)
+    decimal numbers
+
+
+Modulo 
+27 % 2 //1, gets the remainder 
+
+Exponents
+9 ** 3 
+//729
+
+NaN
+a numeric value that represents something that is not a number. 
