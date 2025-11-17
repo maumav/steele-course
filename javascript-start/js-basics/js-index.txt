@@ -25,3 +25,49 @@ Exponents
 
 NaN
 a numeric value that represents something that is not a number. 
+
+
+VARIABLES 
+
+    let year = 1998;
+
+    let numHens = 5;
+    let numRoosters = 1;
+
+    ''' 
+        let numHens = 5;
+        undefined
+        let numRoosters = 1
+        undefined
+        numHens
+        5
+        numRoosters
+        1
+        numHens + numRoosters
+        6
+        let totalChickens = numHens + numRoosters;
+        undefined
+        totalChickens
+        6
+        numHens = numHens + 1
+        6
+        totalChickens
+        6
+        totalChickens
+        6
+        numHens = numHens + 5
+        11
+        totalChickens
+        6
+        totalChickens = numHens + numRoosters
+        12 
+    '''
+
+i++ (post-increment)
+ 
+++i (pre-increment) 
+
+const 
+    can't change the value of constant variable 
+        example: const luckyNum = 5
+        luckyNum += 1  will throw error
