@@ -74,4 +74,29 @@ const
 
 BOOLEANS 
     true or false value 
-    
+
+Finish section 14: Javascript Basics 
+
+Start section 15: Javascript Strings
+    Strings are textual information
+    Strings are indexed, meaning it has a corresponding number for each character. 
+    Includes space if there are more than one word in the string.
+        Starting at 0.
+
+    To access the indices, use variableName[] brackets
+    example:
+        let animal = "Lizard"
+        animal[0]
+        "L"
+
+    Concatenate strings, is adding strings together.
+    example:
+        "hi" + " there"
+        "hi there" 
+    let firstName = "Damian"
+    let lastName = " Wayne"
+        firstName + lastName
+        "Damina Wayne"
+
+        
+
