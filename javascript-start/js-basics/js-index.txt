@@ -98,5 +98,23 @@ Start section 15: Javascript Strings
         firstName + lastName
         "Damina Wayne"
 
-        
+   METHODS
+   ```
+    message1 = "i love food"   
+    message.toUpperCase()
+    message1
+    "I LOVE FOOD"
+    ```
+
+    ```
+    let greeting = "     good night   "
+    greeting.trim().toUpperCase()
+    greeting
+    "GOOD NIGHT"
+    ```
+    SLICE METHOD
+    ```
+    "haha that is so funny".slice(5)
+    "that is so funny" #starting at index 0("), index 5 is space
+    ```    
 
