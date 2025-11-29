@@ -116,5 +116,17 @@ Start section 15: Javascript Strings
     ```
     "haha that is so funny".slice(5)
     "that is so funny" #starting at index 0("), index 5 is space
-    ```    
+    ```  
+    REPLACE
+    ```
+    let greeting1 = "Good Morning"
+    greeting1.replace('Good', 'Bad')
+    "Bad Morning" 
+
+    greeting1
+    "Good Morning" #.replace does not change the original variable
+
+
+    ```
+      
 
