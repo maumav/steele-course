@@ -137,5 +137,12 @@ Start section 15: Javascript Strings
 
     ```
 
-      
+      TEMPLATE LITERAL
+       Uses back tick.
+        ` You bought ${qty} ${product}.    ` #this turns into a string automatically.
 
+    NULL & UNDEFINED
+
+        Null: "intentional absense of any value"
+                must be assigned.
+        Undefined: "Variables that do not have an assigned value are undefined."
