@@ -118,6 +118,7 @@ Start section 15: Javascript Strings
     "that is so funny" #starting at index 0("), index 5 is space
     ```  
     REPLACE
+    
     ```
     let greeting1 = "Good Morning"
     greeting1.replace('Good', 'Bad')
@@ -125,8 +126,16 @@ Start section 15: Javascript Strings
 
     greeting1
     "Good Morning" #.replace does not change the original variable
-
+    ```
 
     ```
+    let word = "skateboard"
+
+    let word2 = word.slice(5)
+    
+    let facialHair = word2.replace('o', 'e')
+
+    ```
+
       
 
