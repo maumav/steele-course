@@ -146,3 +146,9 @@ Start section 15: Javascript Strings
         Null: "intentional absense of any value"
                 must be assigned.
         Undefined: "Variables that do not have an assigned value are undefined."
+
+        
+Math.floor(Math,randon() * 3) + 1
+
+SECTION: Making decision aka Boolean Logic
+
