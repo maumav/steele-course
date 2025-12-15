@@ -152,3 +152,9 @@ Math.floor(Math,randon() * 3) + 1
 
 SECTION: Making decision aka Boolean Logic
 
+    Comparison Operators
+    Conditionals: IF, ELSE-IF, AND
+    True False values 
+    Logical AND, OR, NOT
+
+    
