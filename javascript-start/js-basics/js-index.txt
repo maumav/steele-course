@@ -157,4 +157,33 @@ SECTION: Making decision aka Boolean Logic
     True False values 
     Logical AND, OR, NOT
 
-    
+    COMPARISONS 
+        double equal (equality)
+            checks for equality of value, not equality of types.
+            coerces both values to the same type and then compares them.
+            can lead to unexpected results.
+
+                1 == 1
+                true
+
+                1 == '1'
+                true
+
+                0 == false 
+                true
+        triple equal (strict equality)
+            cares about type
+            1 === '1'
+            false
+
+        1 != 2
+        true
+
+        1 != '2'
+        true
+
+        1 != '1'
+        false
+
+        1 !== '1'
+        true
