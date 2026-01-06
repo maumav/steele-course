@@ -187,3 +187,12 @@ SECTION: Making decision aka Boolean Logic
 
         1 !== '1'
         true
+
+CONSOLE ALERT PROMPT
+
+console.log
+
+    let userInput = prompt("please enter a number)
+
+    parseInt(userInput) #make the string into integer
+
