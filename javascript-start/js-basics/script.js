@@ -26,3 +26,19 @@ console.log("Hello from our First JS file!")
 //     console.log("I LOVE Friday JAM JAM!")
 // }
 
+/*Fair Entry Price*/
+// 0-5 FREE
+// 5 -10 Child $10
+// 10 - 65 $20
+// 65+ Senior $10
+
+// const age = 15;
+
+// if (age < 5 ) {
+//     console.log("You are a baby, FREE!")
+// } else if (age < 10 ) {
+//     console.log("You are a child. $10")
+// } else if (age < 65) {
+//     console.log("You are an adult. $20")
+// }
+
