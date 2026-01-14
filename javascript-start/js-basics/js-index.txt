@@ -196,3 +196,24 @@ console.log
 
     parseInt(userInput) #make the string into integer
 
+CONDITIONALS - making decisions with code
+
+    IF statement - only runs code if given condition is true.
+    
+ FALSE 
+    0
+    ""empty string
+    null
+    undefined
+    NaN 
+
+    EVERYTHING ELSE is TRUTHY
+
+Logical Operators
+
+    && 
+        both sides must be true, for the entire thing to be true.
+    || (pipe) (logical OR)
+        if one side is true, entire thing is true.
+    ! 
+        expression returns true if expression is false
