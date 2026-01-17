@@ -102,7 +102,10 @@ console.log("Hello from our First JS file!")
 //     firstName = prompt("Try Again!");
 // }
 
-const age = 45;
-if (!(age >= 0 && age < 5 || age >= 65)) {
-    console.log("You are not a baby or a senior!")
-}
+// const age = 45;
+// if (!(age >= 0 && age < 5 || age >= 65)) {
+//     console.log("You are not a baby or a senior!")
+// }
+
+let movieLine = ['tom', 'nancy']
+movieLine.push('oliver')
