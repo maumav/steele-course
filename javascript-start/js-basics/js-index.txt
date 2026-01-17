@@ -216,4 +216,14 @@ Logical Operators
     || (pipe) (logical OR)
         if one side is true, entire thing is true.
     ! 
-        expression returns true if expression is false
+         expression returns true if expression is false
+
+ARRAYS
+    ordered collections of values.
+    strings array
+        let colors = ['red', 'orange', 'yellow'];
+    number arrays 
+        let numbers = [0, 1, 2, 3, 4, 5]
+    mixed arrays 
+        arrays with boolean, numbers or strings in one array.
+
