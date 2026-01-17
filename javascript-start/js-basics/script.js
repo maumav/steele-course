@@ -79,20 +79,30 @@ console.log("Hello from our First JS file!")
     //     console.log("Incorrect format for password.")
     // }
 
-/*Logical OR */
+/*Logical (OR) || */
 
-//  0-5 free
-//  5-10 $10 
-//  10-65 $20 
-//  65+ free 
-const age = 7;
-if (age >= 0 && age < 5 || age >= 65) {
-    console.log("Free");
-} 
-else if (age >= 5 && age < 10) {
-    console.log("$10")
+    //  0-5 free
+    //  5-10 $10 
+    //  10-65 $20 
+    //  65+ free 
+        // const age = 7;
+        // if (age >= 0 && age < 5 || age >= 65) {
+        //     console.log("Free");
+        // } 
+        // else if (age >= 5 && age < 10) {
+        //     console.log("$10")
+        // }
+        // else if (age >= 10 && age < 65) {
+        //     console.log("$20")
+        // } 
+
+/* !NOT logical */
+// const firstName = prompt("Enter your name:");
+// if (!firstName) {
+//     firstName = prompt("Try Again!");
+// }
+
+const age = 45;
+if (!(age >= 0 && age < 5 || age >= 65)) {
+    console.log("You are not a baby or a senior!")
 }
-else if (age >= 10 && age < 65) {
-    console.log("$20")
-
-} 
