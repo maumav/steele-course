@@ -227,3 +227,11 @@ ARRAYS
     mixed arrays 
         arrays with boolean, numbers or strings in one array.
 
+    PUSH
+        add to end 
+    POP
+        remove from end
+    SHIFT
+        remove from start
+    UNSHIFT
+        add to start
