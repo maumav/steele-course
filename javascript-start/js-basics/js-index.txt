@@ -235,3 +235,18 @@ ARRAYS
         remove from start
     UNSHIFT
         add to start
+
+
+    array1.concat(array2)
+
+    array.reverse()
+
+    array.includes()
+
+    array.indexOf()
+
+    array.slice()
+
+    array.splice()
+
+    array.sort()
