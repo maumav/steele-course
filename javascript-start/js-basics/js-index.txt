@@ -250,3 +250,13 @@ ARRAYS
     array.splice()
 
     array.sort()
+
+    array1 === array1
+    #will outpput false. because its checking the memory instead of content 
+
+    let array1 = [1,2,3]
+
+    let arrayCopy = array1
+
+    array1 === arrayCopy 
+    #will output true
