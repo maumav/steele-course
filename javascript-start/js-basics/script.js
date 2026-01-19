@@ -107,5 +107,23 @@ console.log("Hello from our First JS file!")
 //     console.log("You are not a baby or a senior!")
 // }
 
-let movieLine = ['tom', 'nancy']
-movieLine.push('oliver')
+// let movieLine = ['tom', 'nancy']
+// movieLine.push('oliver')
+
+/*Triple equals array*/
+let array1 = [1,2,3];
+let arrayCopy = array1;
+array1 === arrayCopy
+/* returns true */
+
+/*Array objects; key-value pairs sample*/
+const product = {
+    name: "Gummy Bears",
+    inStock: true,
+    price: 1.99,
+    flavors: [["grape"], ["apple"], ["cherry"]]
+}
+
+    /*product.name 
+    array objects keys are turned into strings.
+    */
