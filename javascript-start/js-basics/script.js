@@ -111,19 +111,44 @@ console.log("Hello from our First JS file!")
 // movieLine.push('oliver')
 
 /*Triple equals array*/
-let array1 = [1,2,3];
-let arrayCopy = array1;
-array1 === arrayCopy
-/* returns true */
+// let array1 = [1,2,3];
+// let arrayCopy = array1;
+// array1 === arrayCopy
+// /* returns true */
 
-/*Array objects; key-value pairs sample*/
-const product = {
-    name: "Gummy Bears",
-    inStock: true,
-    price: 1.99,
-    flavors: [["grape"], ["apple"], ["cherry"]]
-}
+// /*Array objects; key-value pairs sample*/
+// const product = {
+//     name: "Gummy Bears",
+//     inStock: true,
+//     price: 1.99,
+//     flavors: [["grape"], ["apple"], ["cherry"]]
+// }
+
+/*product.name = "Cake"
+product.["name"] = "Muffin"
+
+*/
 
     /*product.name 
     array objects keys are turned into strings.
     */
+
+/*LOOPS*/
+// for ( let num = 1; num <= 10; num++) {
+//     console.log(num);
+// }
+
+/*Loops in-browser quiz*/
+// let words = "Da ba dee da ba daa"
+// for (let i = 1; i <= 6; i++) {
+//     console.log(words);
+// }
+
+/*Another loops; even numbers*/
+// for (let i = 0; i <= 20; i += 2){
+//     console.log(i)
+// }
+
+for (let i = 100; i >= 0; i -= 10){
+    console.log(i)
+}
