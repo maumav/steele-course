@@ -252,7 +252,7 @@ ARRAYS
     array.sort()
 
     array1 === array1
-    #will outpput false. because its checking the memory instead of content 
+    #will outpput false. because its checking the memory/reference instead of content 
 
     let array1 = [1,2,3]
 
@@ -260,3 +260,19 @@ ARRAYS
 
     array1 === arrayCopy 
     #will output true
+
+    gameBoard[1][1]
+    #to call on the null. starting at 0 index to 1. inside is 0 index, null is 1 index. 
+
+JS OBJECTS - data structures
+
+    obj = collection of properties
+    properties are key-value pairs
+    use custome keys to access data instead of index 
+
+
+LOOPS
+    for loop 
+    while loop
+    for...of loop
+    for...in loop
