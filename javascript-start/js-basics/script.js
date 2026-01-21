@@ -149,6 +149,14 @@ product.["name"] = "Muffin"
 //     console.log(i)
 // }
 
-for (let i = 100; i >= 0; i -= 10){
+/* from 100 taking away 10 all the way to 0 */
+// for (let i = 100; i >= 0; i -= 10){
+//     console.log(i)
+// }
+
+/*In-browser exercise. From 25 to 0, taking away 5*/
+for (let i = 25; i >= 0; i -= 5) {
     console.log(i)
 }
+
+
