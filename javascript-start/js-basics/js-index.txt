@@ -276,3 +276,11 @@ LOOPS
     while loop
     for...of loop
     for...in loop
+
+    Looping over arrays:
+        const animals = ['lions', 'tigers', 'bears'];
+        for (let i = 0; i < animals.length; i++) {
+            console.log(i, animals[i]);
+        }
+
+        
