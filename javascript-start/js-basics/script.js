@@ -169,6 +169,54 @@ product.["name"] = "Muffin"
 
 
 /* assuming there is animals variable that lists 312 animals */
-for (let i = 0; i < animals.length; i++) {
-    console.log(i, animals[i])
-}
+// for (let i = 0; i < animals.length; i++) {
+//     console.log(i, animals[i])
+// }
+
+/*Output in reverse alphabtical order*/
+// let animals = ['Abalone',
+// 'Albatross',
+// 'American lobster',
+// 'Anchovy',
+// 'Angelfish',
+// 'Anglerfish',
+// 'Barracuda',
+// 'Barnacle',
+// 'Basking shark',
+// 'Beluga whale',
+// 'Blobfish',
+// 'Blue crab',
+// 'Blue whale',
+// 'Blue-ringed octopus',
+// 'Bottlenose dolphin',
+// 'Box jellyfish',
+// 'Brittle star',
+// 'Bull shark',
+// 'Butterflyfish',
+// 'Clownfish',
+// 'Conch',
+// 'Coral (polyps)',
+// 'Cormorant',
+// 'Cowrie',
+// 'Crown-of-thorns starfish',
+// 'Cuttlefish',
+// 'Dugong',
+// 'Eagle ray',
+// 'Flying fish',
+// 'Frigate bird']
+
+// for (let i = animals.length - 1; i >= 0; i--){
+//     console.log(animals[i])
+// }
+
+
+/*in-browser exercise, print in uppercase*/
+// const people = ["Scooby", "Velma", "Daphne", "Shaggy", "Fred"]; //DONT TOUCH THIS LINE!
+
+// // WRITE YOUR LOOP BELOW THIS LINE:
+// let uppercase = [];
+// for (let i = 0; i < people.length; i++) {
+//    uppercase.push(people[i].toUpperCase());
+//    console.log(uppercase[i]);
+// }
+
