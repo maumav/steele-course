@@ -161,8 +161,14 @@ product.["name"] = "Muffin"
 
 
 /*Looping over arrays*/
-const animals = ['lions', 'tigers', 'bears', 'leopards', 'zebras'];
-        for (let i = ; i < animals.length; i++) {
-            console.log(i, animals[i]);
-        }
-            /*starting at index 0 incrementing to index 4*/
+// const animals = ['lions', 'tigers', 'bears', 'leopards', 'zebras'];
+//         for (let i = ; i < animals.length; i++) {
+//             console.log(i, animals[i]);
+//         }
+//             /*starting at index 0 incrementing to index 4*/
+
+
+/* assuming there is animals variable that lists 312 animals */
+for (let i = 0; i < animals.length; i++) {
+    console.log(i, animals[i])
+}
