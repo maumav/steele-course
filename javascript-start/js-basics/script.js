@@ -155,8 +155,14 @@ product.["name"] = "Muffin"
 // }
 
 /*In-browser exercise. From 25 to 0, taking away 5*/
-for (let i = 25; i >= 0; i -= 5) {
-    console.log(i)
-}
+// for (let i = 25; i >= 0; i -= 5) {
+//     console.log(i)
+// }
 
 
+/*Looping over arrays*/
+const animals = ['lions', 'tigers', 'bears', 'leopards', 'zebras'];
+        for (let i = ; i < animals.length; i++) {
+            console.log(i, animals[i]);
+        }
+            /*starting at index 0 incrementing to index 4*/
