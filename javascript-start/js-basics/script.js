@@ -242,10 +242,18 @@ product.["name"] = "Muffin"
 //     console.log(count)
 // }
 
-const secret_message = "BabyHippo";
+/*Another while loop example */
+// const secret_message = "BabyHippo";
 
-let guess = prompt("Enter message here: ");
-while (guess !== secret_message ){
-    guess = prompt("Enter message here: ");
+// let guess = prompt("Enter message here: ");
+// while (guess !== secret_message ){
+//     guess = prompt("Enter message here: ");
+// }
+// console.log("Congrats, you got the messeage!");
+
+let input = prompt("Say something...")
+while (true) {
+    input = prompt(input);
+    if (input.toLowerCase() === "stop copying me") break;
 }
-console.log("Congrats, you got the messeage!");
+console.log("Ok you win!")
