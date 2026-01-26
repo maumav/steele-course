@@ -251,9 +251,11 @@ product.["name"] = "Muffin"
 // }
 // console.log("Congrats, you got the messeage!");
 
-let input = prompt("Say something...")
-while (true) {
-    input = prompt(input);
-    if (input.toLowerCase() === "stop copying me") break;
-}
-console.log("Ok you win!")
+// let input = prompt("Say something...")
+// while (true) {
+//     input = prompt(input);
+//     if (input.toLowerCase() === "stop copying me") break;
+// }
+// console.log("Ok you win!")
+
+// 
