@@ -220,3 +220,32 @@ product.["name"] = "Muffin"
 //    console.log(uppercase[i]);
 // }
 
+
+/*Nested Loops example*/
+// const seatingChart = [
+//     ['Kristen', 'Erik', 'Naomi'],
+//     ['Geoffrey', 'Joe', 'Kevin', 'Lucas'],
+//     ['Yuma', 'Sakura', 'Jack', 'Erika']
+// ]
+// for (let i = 0; i < seatingChart.length; i++){
+//     const row = seatingChart[i];
+//     console.log(`ROW #${i + 1}`)
+//     for (let j = 0; j < row.length; j++){
+//         console.log(row[j])
+//     }
+// }
+
+/*While loops*/
+// let count = 0;
+// while (count < 10) {
+//     count++;
+//     console.log(count)
+// }
+
+const secret_message = "BabyHippo";
+
+let guess = prompt("Enter message here: ");
+while (guess !== secret_message ){
+    guess = prompt("Enter message here: ");
+}
+console.log("Congrats, you got the messeage!");
