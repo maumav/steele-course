@@ -258,4 +258,73 @@ product.["name"] = "Muffin"
 // }
 // console.log("Ok you win!")
 
-// 
+/*For..of Loop */
+    /*First*/
+    // const subreddits = ['cringe','books', 'plants', 'chickens','soccer']
+
+    // for (let sub of subreddits) {
+    //     console.log(sub)
+    // }
+
+    // /*Second example*/
+    // const seatingChart2 = [
+    //     ['Kristen', 'Jacob', 'Edward'],
+    //     ['Carlyle', 'Yumi', 'Howard'],
+    //     ['Sakura', 'Jack']
+    // ]
+
+    // for (let row of seatingChart2) {
+    //     for (let student of row) {
+    //         console.log(student)
+    //     }
+    // }
+
+
+
+
+//     const numbers = [1,2,3,4,5,6,7,8,9]; //DON'T CHANGE THIS LINE PLEASE!
+
+// // WRITE YOUR LOOP BELOW THIS LINE:
+// for (let num1 of numbers) {
+//     for (let num2 of num1) {
+//         console.log(num2)
+//     }
+// }
+
+const numbers = [1,2,3,4,5,6,7,8,9]; //DON'T CHANGE THIS LINE PLEASE!
+
+// for (let count of numbers) {
+//         console.log(count)
+//     }
+
+// for (let i = 9; i >= 0; i += 6){
+//     console.log(i, numbers[i])
+
+// }
+
+// for (let i = 1; i <= 9; i += 2){
+//     console.log(i, numbers[i]);
+// }
+
+/*Claude AI*/
+// If you want to use a for...of loop to multiply each number by itself and store the results, here's how:
+// javascript
+    let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+    let squared = [];
+
+    for (let num of numbers) {
+    squared.push(num * num);
+    }
+
+    console.log(squared); // [1, 4, 9, 16, 25, 36, 49, 64, 81]
+
+
+    /* Or if you want to display it with the index numbering: */
+    let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+    let index = 1;
+
+    for (let num of numbers) {
+    console.log(`${index}. ${num * num}`);
+    index++;
+    }
+
