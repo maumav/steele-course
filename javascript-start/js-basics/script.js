@@ -291,11 +291,7 @@ product.["name"] = "Muffin"
 //     }
 // }
 
-const numbers = [1,2,3,4,5,6,7,8,9]; //DON'T CHANGE THIS LINE PLEASE!
 
-// for (let count of numbers) {
-//         console.log(count)
-//     }
 
 // for (let i = 9; i >= 0; i += 6){
 //     console.log(i, numbers[i])
@@ -309,22 +305,42 @@ const numbers = [1,2,3,4,5,6,7,8,9]; //DON'T CHANGE THIS LINE PLEASE!
 /*Claude AI*/
 // If you want to use a for...of loop to multiply each number by itself and store the results, here's how:
 // javascript
-    let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-    let squared = [];
 
-    for (let num of numbers) {
-    squared.push(num * num);
-    }
+    // let squared = [];
 
-    console.log(squared); // [1, 4, 9, 16, 25, 36, 49, 64, 81]
+    // for (let num of numbers) {
+    // squared.push(num * num);
+    // }
+
+    // console.log(squared); // [1, 4, 9, 16, 25, 36, 49, 64, 81]
 
 
-    /* Or if you want to display it with the index numbering: */
-    let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-    let index = 1;
+    // /* Or if you want to display it with the index numbering: */
+    // let index = 1;
 
-    for (let num of numbers) {
-    console.log(`${index}. ${num * num}`);
-    index++;
-    }
+    // for (let num of numbers) {
+    // console.log(`${index}. ${num * num}`);
+    // index++;
+    // }
 
+    const numbers = [1,2,3,4,5,6,7,8,9]; //DON'T CHANGE THIS LINE PLEASE!
+    /*Try */
+    // let index = 1;
+
+    // for (let count of numbers) {
+    //         console.log(`${count}. ${count * count}`)
+    //     }
+
+    /*Another try*/
+    // for (let count of numbers) {
+    //         console.log(`${count}. ${count * count}`)
+    //     }
+
+    /*SUCCESS TRY*/
+    const numbers = [1,2,3,4,5,6,7,8,9]; //DON'T CHANGE THIS LINE PLEASE!
+
+    // WRITE YOUR LOOP BELOW THIS LINE:
+    
+        for (let count of numbers) {
+                console.log(`${count * count}`);
+            }
