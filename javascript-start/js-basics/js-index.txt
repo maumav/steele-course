@@ -282,5 +282,26 @@ LOOPS
         for (let i = 0; i < animals.length; i++) {
             console.log(i, animals[i]);
         }
-
+    For.. of loop 
+        iterating over arrays
         
+    For... in loop
+    Object.values
+    Object.entries
+    Object.keys
+        
+
+FUNCTIONS 
+    allows to write reusable, modular code.
+    we define a chunk of cofr that we can execute at a later point.
+    it is used all the time.
+        2 step process:
+        define
+        execute
+            function funcName(parameter){
+                console.log(`Hey there, ${parameter}`)
+            }
+            
+            funcName('Stitch'); #in this case, 'stitch' is called an argument
+            output:
+            Hey there, Stitch
