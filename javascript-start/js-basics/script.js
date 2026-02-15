@@ -323,7 +323,7 @@ product.["name"] = "Muffin"
     // index++;
     // }
 
-    const numbers = [1,2,3,4,5,6,7,8,9]; //DON'T CHANGE THIS LINE PLEASE!
+    // const numbers = [1,2,3,4,5,6,7,8,9]; //DON'T CHANGE THIS LINE PLEASE!
     /*Try */
     // let index = 1;
 
@@ -337,10 +337,25 @@ product.["name"] = "Muffin"
     //     }
 
     /*SUCCESS TRY*/
-    const numbers = [1,2,3,4,5,6,7,8,9]; //DON'T CHANGE THIS LINE PLEASE!
+    // const numbers = [1,2,3,4,5,6,7,8,9]; //DON'T CHANGE THIS LINE PLEASE!
 
-    // WRITE YOUR LOOP BELOW THIS LINE:
+    // // WRITE YOUR LOOP BELOW THIS LINE:
     
-        for (let count of numbers) {
-                console.log(`${count * count}`);
-            }
+    //     for (let count of numbers) {
+    //             console.log(`${count * count}`);
+    //         }
+
+
+
+
+/*FUNCTIONS*/
+
+    // function greeting(firstName) {
+    //     console.log(`Good morning, ${firstName}!`)
+    // }
+
+    // greeting('Stitch');
+
+    function greet(firstName, lastName) {
+        console.log(`Good day, ${firstName} ${lastName[0]}.`) /*Last name outputs index 0 only.*/
+    }
