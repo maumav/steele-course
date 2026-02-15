@@ -356,6 +356,26 @@ product.["name"] = "Muffin"
 
     // greeting('Stitch');
 
-    function greet(firstName, lastName) {
-        console.log(`Good day, ${firstName} ${lastName[0]}.`) /*Last name outputs index 0 only.*/
-    }
+    /*Example 2*/
+    // function greet(firstName, lastName) {
+    //     console.log(`Good day, ${firstName} ${lastName[0]}.`) /*Last name outputs index 0 only.*/
+    // }
+
+    /*Example 3*/
+        // function repeat(str, numTimes) {
+        //     let result = '';
+        //     for(let i = 0; i < numTimes; i++) {
+        //         result += str;
+        //     }
+        //     console.log(result)
+        // } 
+
+    /*In-browser exercise. Print Snake Eyes! otherwise print Not Snake Eyes!*/
+        // function isSnakeEyes(num1, num2){
+        //     if (num1 === 1 && num2 === 1) {
+        //         console.log("Snake Eyes!") 
+        //     } else {
+        //         console.log("Not Snake Eyes!")
+        //     }
+        // }
+        // isSnakeEyes()
