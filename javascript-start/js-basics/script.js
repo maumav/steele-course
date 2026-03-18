@@ -425,3 +425,33 @@ product.["name"] = "Muffin"
             /*If there is a variable inside the function named bird, it will be called.
                 Otherwise, the outside variable will be called.
             */
+
+    // /*BLOCK SCOPE Section*/ 
+
+    //     let radius = 8;
+    //     if (radius > 0){
+    //         const PI = 3.14;
+    //         let circ = 2 * PI * radius;
+    //     }
+    //     console.log(radius)
+    //     console.log(PI) // not defined
+    //     console.log(circ) // not defined
+        /*only for conditionals or loops.
+        The variables inside a block, it only exists only within the curly braces.
+        
+        */
+
+        /*LEXICAL SCOPE Section*/
+
+            function outer() {
+                let hero = 'Black Panther';
+
+                function inner() {
+                    let cryForHelp = `${hero}, please save me!`
+                    console.log(cryForHelp);
+                }inner();
+                
+            }
+            outer();
+
+                // When outer() is called, it automatically calls inner() inside it, which prints the message to the console.
