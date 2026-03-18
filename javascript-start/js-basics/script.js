@@ -379,3 +379,49 @@ product.["name"] = "Muffin"
         //     }
         // }
         // isSnakeEyes()
+
+     /*In-browser exercise*/
+    //  function multiply(num1, num2) {
+    //     return num1 * num2;
+    // }
+    // multiply(2, 3)
+    // multiply(9, 9)
+    // multiply(5, 4)
+
+     /*in-browser; lastElement exercise*/
+    // /*try 1*/
+    //  function lastElement([x,y,z]) {
+    //     return x[z] 
+    // }
+    // /*try 2*/
+    // function lastElement([x]) {
+    //     return x[2]
+    // }
+
+
+    /*FIZZ BUZZ TRY*/
+    // function fizzBuzz(n) {
+    //     for (let i = 1; i <= n; i++) {
+    //       if (i % 15 === 0) {
+    //         console.log("FizzBuzz");
+    //       } else if (i % 3 === 0) {
+    //         console.log("Fizz");
+    //       } else if (i % 5 === 0) {
+    //         console.log("Buzz");
+    //       } else {
+    //         console.log(i);
+    //       }
+    //     }
+    //   }
+
+    /*FUNCTION SCOPE SECTION*/
+
+        // let bird = 'Scarlet Macaw';
+        // function birdWatch() {
+        //     let bird = 'Great Blue Heron'; 
+        //     console.log(bird)
+        // }
+        // birdWatch()
+            /*If there is a variable inside the function named bird, it will be called.
+                Otherwise, the outside variable will be called.
+            */
