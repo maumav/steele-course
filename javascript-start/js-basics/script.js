@@ -443,15 +443,29 @@ product.["name"] = "Muffin"
 
         /*LEXICAL SCOPE Section*/
 
-            function outer() {
-                let hero = 'Black Panther';
+            // function outer() {
+            //     let hero = 'Black Panther';
 
-                function inner() {
-                    let cryForHelp = `${hero}, please save me!`
-                    console.log(cryForHelp);
-                }inner();
+            //     function inner() {
+            //         let cryForHelp = `${hero}, please save me!`
+            //         console.log(cryForHelp);
+            //     }inner();
                 
-            }
-            outer();
+            // }
+            // outer();
 
-                // When outer() is called, it automatically calls inner() inside it, which prints the message to the console.
+            //     // When outer() is called, it automatically calls inner() inside it, which prints the message to the console.
+
+        /*FUNCTION EXPRESSIONS*/
+
+            const add = function(x,y) {
+                return x + y;
+            }
+            // function is stored inside a variable.   
+            // we call the function using the variable name.
+        
+        /* HIGHER ORDER FUNCTIONS */
+            /* functions that operate on/with other functions.
+             can: 1, accept other functions as arguments
+               2, return a function. 
+            */
