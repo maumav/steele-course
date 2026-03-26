@@ -469,3 +469,20 @@ product.["name"] = "Muffin"
              can: 1, accept other functions as arguments
                2, return a function. 
             */
+
+            //    function callTwice(func) {
+            //     func();
+            //     func();
+            //    }
+
+            //    function callTenTimes(f) {
+            //     for (let i = 0; i < 10; i++) {
+            //         f()
+            //     }
+            //     }
+
+            //     function rollDie() {
+            //         const roll = Math.floor(Math.random() * 6) + 1
+            //         console.log(roll)
+            //     }
+            // callTwice(rollDie)
