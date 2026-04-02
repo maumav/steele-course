@@ -467,7 +467,7 @@ product.["name"] = "Muffin"
         /* HIGHER ORDER FUNCTIONS */
             /* functions that operate on/with other functions.
              can: 1, accept other functions as arguments
-               2, return a function. 
+                    2, return a function. 
             */
 
             //    function callTwice(func) {
@@ -486,3 +486,36 @@ product.["name"] = "Muffin"
             //         console.log(roll)
             //     }
             // callTwice(rollDie)
+
+                // Returning Function
+            // function makeMysteryFunc(){
+            //     const rand = Math.random();
+            //     if (rand > 0.5) {
+            //         return function() {
+            //             console.log("Good function")
+            //         }
+            //     } else {
+            //         return function() {
+            //             alert("You have been infected")
+            //         }
+            //     }
+            // }
+
+            function makeBetweenFunc(min, max) {
+             return function(num){
+                return num >= min && num <= max;
+             }
+            }
+            // const isChild = makeBetweenFunc(0, 18) #makeBetweenFunc is captured as as variable 
+            // isChild(40)
+            // false
+            // isChild(4)
+            // true
+                // function isBetween(num) {
+                //     return num >= 50 && num <= 100
+                    
+                // }
+
+    /* Defining METHODS*/
+
+            
