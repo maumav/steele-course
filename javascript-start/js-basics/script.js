@@ -517,5 +517,44 @@ product.["name"] = "Muffin"
                 // }
 
     /* Defining METHODS*/
+            /*We can add functions as properties on objects.
+            */
+            // const myMath = {
+            //     PI: 3.14159,
+            //     square: function (num) {
+            //         return num * num;
+            //     },
+            //     cube: function (num) {
+            //         return num ** 3;
+            //     }
+            // }
 
-            
+                //shorthand style 
+                //     square(num) {
+                //         return num * num;
+                //     },
+                //     cube(num) {
+                //         return num ** 3;
+                //     }
+                // }
+
+            /* In-browser test:
+                I was missing const at first, that was why it didn't work.
+            */
+                // const square = {
+                //     area : function(side) {
+                //     return side * side
+                //     },
+                //      perimeter : function(side) {
+                //     return side * 4 
+                //     }
+                // }
+                //    square.area(10)
+                //    square.perimeter()
+                
+        /*THIS in Methods
+            use the keyword this, to access other properties
+            on the same object.
+        
+        */
+         
