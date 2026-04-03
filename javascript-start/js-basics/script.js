@@ -501,11 +501,11 @@ product.["name"] = "Muffin"
             //     }
             // }
 
-            function makeBetweenFunc(min, max) {
-             return function(num){
-                return num >= min && num <= max;
-             }
-            }
+            // function makeBetweenFunc(min, max) {
+            //  return function(num){
+            //     return num >= min && num <= max;
+            //  }
+            // }
             // const isChild = makeBetweenFunc(0, 18) #makeBetweenFunc is captured as as variable 
             // isChild(40)
             // false
@@ -553,8 +553,24 @@ product.["name"] = "Muffin"
                 //    square.perimeter()
                 
         /*THIS in Methods
-            use the keyword this, to access other properties
+            use the keyword th is, to access other properties
             on the same object.
         
         */
          
+            /*In-browser exercise*/
+            const hen = {
+                name: 'Helen',
+                eggCount: 0,
+                layAnEgg(eggCount) {
+                    
+                    for (let i = 0; i < 5; i++ ){
+                        console.log(i)
+                        console.log("EGG")
+                        console.log(`Helen's egg count: ${this.eggCount}`)
+                    }
+                    // return `Helen's egg count: ${this.eggCount}` 
+                    
+                }
+            }
+            hen.layAnEgg()
