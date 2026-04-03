@@ -558,19 +558,31 @@ product.["name"] = "Muffin"
         
         */
          
-            /*In-browser exercise*/
+            /*In-browser exercise:
+            My initial code which didn't work.
+            */
+            // const hen = {
+            //     name: 'Helen',
+            //     eggCount: 0,
+            //     layAnEgg(eggCount) {
+                    
+            //         for (let i = 0; i < 5; i++ ){
+            //             console.log(i)
+            //             console.log("EGG")
+            //             console.log(`Helen's egg count: ${this.eggCount++}`)
+            //         }
+                    
+                    
+            //     }
+            // }
+            // hen.layAnEgg()
+
+            /*Code that worked */
             const hen = {
                 name: 'Helen',
                 eggCount: 0,
-                layAnEgg(eggCount) {
-                    
-                    for (let i = 0; i < 5; i++ ){
-                        console.log(i)
-                        console.log("EGG")
-                        console.log(`Helen's egg count: ${this.eggCount}`)
-                    }
-                    // return `Helen's egg count: ${this.eggCount}` 
-                    
+                layAnEgg() {
+                    this.eggCount++;
+                    return "EGG";    
                 }
             }
-            hen.layAnEgg()
