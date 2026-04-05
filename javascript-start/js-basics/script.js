@@ -578,11 +578,68 @@ product.["name"] = "Muffin"
             // hen.layAnEgg()
 
             /*Code that worked */
-            const hen = {
-                name: 'Helen',
-                eggCount: 0,
-                layAnEgg() {
-                    this.eggCount++;
-                    return "EGG";    
-                }
-            }
+            // const hen = {
+            //     name: 'Helen',
+            //     eggCount: 0,
+            //     layAnEgg() {
+            //         this.eggCount++;
+            //         return "EGG";    
+            //     }
+            // }
+
+           /* TRY/CATCH */
+
+        //    try {
+        //     hello.toUpperCase();
+        //    } catch {
+        //     console.log("Error!")
+        //    }
+        //    hello.toUpperCase()
+        //    console.log("After")
+
+        // function yell(msg){
+        //     try {
+        //         console.log(msg.toUpperCase().repeat(3));
+        //     } catch (e) {
+        //         console.log("Please pass a string!")
+        //     }
+        // }
+
+/*ARRAY CALLBACK METHODS */
+
+    /* - use new arrow function syntax
+        - understand and use these methods:
+            -forEach
+                Accepts a callback function.
+                Calls the function once per element in the array.
+            -map
+            -filter
+            -find
+            -reduce
+            -some
+            -every
+
+            They are array methods that require us to pass in
+            a function.
+    */
+
+            /*forEach            */
+        //     const movies = [
+        //         {
+        //             title: 'Amadeus',
+        //             score: 99
+        //         },
+        //         {
+        //             title: 'Stand By Me',
+        //             score: 85
+        //         },
+        //         {
+        //             title: 'Parasite',
+        //             score: 95
+        //         }
+        //     ]
+        // movies.forEach(function(movie){
+        //     console.log(`${movie.title} - ${movie.score}/100`)
+        // })
+        
+        
