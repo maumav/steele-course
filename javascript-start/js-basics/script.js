@@ -613,6 +613,8 @@ product.["name"] = "Muffin"
                 Accepts a callback function.
                 Calls the function once per element in the array.
             -map
+                Creates a new array with the results of calling a callback on
+                every element in the array.
             -filter
             -find
             -reduce
@@ -623,7 +625,7 @@ product.["name"] = "Muffin"
             a function.
     */
 
-            /*forEach            */
+        /*forEach            */
         //     const movies = [
         //         {
         //             title: 'Amadeus',
@@ -642,4 +644,8 @@ product.["name"] = "Muffin"
         //     console.log(`${movie.title} - ${movie.score}/100`)
         // })
         
-        
+        /*MAP*/
+        const texts = ['rofl', 'lol', 'omg', 'hi'];
+        const textInCaps = texts.map(function(t) {
+            return t.toUpperCase();
+        })
