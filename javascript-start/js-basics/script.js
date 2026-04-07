@@ -615,6 +615,9 @@ product.["name"] = "Muffin"
             -map
                 Creates a new array with the results of calling a callback on
                 every element in the array.
+            -arrow functions
+                'syntactically compact alternative' to a regular
+                function expression
             -filter
             -find
             -reduce
@@ -645,17 +648,26 @@ product.["name"] = "Muffin"
         // })
         
         /*MAP*/
-        const texts = ['rofl', 'lol', 'omg', 'hi'];
-        const textInCaps = texts.map(function(t) {
-            return t.toUpperCase();
-        })
+        // const texts = ['rofl', 'lol', 'omg', 'hi'];
+        // const textInCaps = texts.map(function(t) {
+        //     return t.toUpperCase();
+        // })
 
-        /*In-browser exercise on MAP*/
-        // DO NOT ALTER THE FOLLOWING CODE:
-            const fullNames = [{first: 'Albus', last: 'Dumbledore'}, {first: 'Harry', last: 'Potter'}, {first: 'Hermione', last: 'Granger'}, {first: 'Ron', last: 'Weasley'}, {first: 'Rubeus', last: 'Hagrid'}, {first: 'Minerva', last: 'McGonagall'}, {first: 'Severus', last: 'Snape'}];
+        // /*In-browser exercise on MAP*/
+        // // DO NOT ALTER THE FOLLOWING CODE:
+        //     const fullNames = [{first: 'Albus', last: 'Dumbledore'}, {first: 'Harry', last: 'Potter'}, {first: 'Hermione', last: 'Granger'}, {first: 'Ron', last: 'Weasley'}, {first: 'Rubeus', last: 'Hagrid'}, {first: 'Minerva', last: 'McGonagall'}, {first: 'Severus', last: 'Snape'}];
 
-            // Write your code here
+        //     // Write your code here
 
-            const firstNames = fullNames.map(function(name) {
-                return name.first
-            }
+        //     const firstNames = fullNames.map(function(name) {
+        //         return name.first
+        //     }
+
+        /*ARROW FUNCTION*/
+        const square = (x) => {
+            return x * x;
+        }
+
+        const sum = (x,y) => {
+            return x + y;
+        }
