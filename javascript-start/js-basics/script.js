@@ -617,7 +617,9 @@ product.["name"] = "Muffin"
                 every element in the array.
             -arrow functions
                 'syntactically compact alternative' to a regular
-                function expression
+                function expression.
+                there is also called IMPLICIT RETURN
+
             -filter
             -find
             -reduce
@@ -671,3 +673,19 @@ product.["name"] = "Muffin"
         const sum = (x,y) => {
             return x + y;
         }
+            /*In-browser exercise
+            SUCCESS
+            */
+            const greet = (name) => {
+                return `Hey ${name}!`;
+              };
+              
+              console.log(greet('Blue'));
+              console.log(greet('Scout'));
+              console.log(greet('asfadf'));
+
+        /*Implicit Returns*/
+         const isEven = num => ( //implicit return
+            num % 2 === 0
+         );
+         const isEcen = num => num % 2 === 0; //one-liner implicit return
