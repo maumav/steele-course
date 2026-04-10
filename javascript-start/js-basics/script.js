@@ -692,7 +692,7 @@ product.["name"] = "Muffin"
 
         //  const add = (a, b) => a + b //implicit return; one-liner
 
-        
+
             /* Arrow Functions, another example using movies*/
         //  const movies1 = [
         //             {
@@ -711,3 +711,14 @@ product.["name"] = "Muffin"
         //        const newMovies =  movies1.map(movie => (
         //         `${movie.title} - ${movie.score / 10}`
         //        ))
+
+    /* setTimeout */
+    
+        // delays the execution of a function.
+        console.log("Hello...")
+        setTimeout(() => {
+            console.log("... are you still there?")
+        }, 3000) //3000 is 3 seconds.This section will run after 3 seconds.
+        console.log("Goodbye!")
+            // hello and goodbye will show as output right away in the console.
+            
