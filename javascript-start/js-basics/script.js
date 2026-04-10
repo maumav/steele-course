@@ -458,9 +458,9 @@ product.["name"] = "Muffin"
 
         /*FUNCTION EXPRESSIONS*/
 
-            const add = function(x,y) {
-                return x + y;
-            }
+            // // const add = function(x,y) {
+            // //     return x + y;
+            // }
             // function is stored inside a variable.   
             // we call the function using the variable name.
         
@@ -685,11 +685,29 @@ product.["name"] = "Muffin"
         //       console.log(greet('asfadf'));
 
         /*Implicit Returns*/
-         const isEven = num => ( //implicit return, notice the use of parenthesis instead of curly braces
-            num % 2 === 0
-         );
-         const isEven = num => num % 2 === 0; //one-liner implicit return
+        //  const isEven = num => ( //implicit return, notice the use of parenthesis instead of curly braces
+        //     num % 2 === 0
+        //  );
+        //  const isEven = num => num % 2 === 0; //one-liner implicit return
 
-         const add = (a, b) => a + b //implicit return; one-liner
+        //  const add = (a, b) => a + b //implicit return; one-liner
 
-         
+        
+            /* Arrow Functions, another example using movies*/
+        //  const movies1 = [
+        //             {
+        //                 title: 'Up',
+        //                 score: 99
+        //             },
+        //             {
+        //                 title: 'Cinderella',
+        //                 score: 85
+        //             },
+        //             {
+        //                 title: 'Snow White',
+        //                 score: 95
+        //             }
+        //         ]
+        //        const newMovies =  movies1.map(movie => (
+        //         `${movie.title} - ${movie.score / 10}`
+        //        ))
