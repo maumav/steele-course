@@ -666,26 +666,30 @@ product.["name"] = "Muffin"
         //     }
 
         /*ARROW FUNCTION*/
-        const square = (x) => {
-            return x * x;
-        }
+        // const square = (x) => {
+        //     return x * x;
+        // }
 
-        const sum = (x,y) => {
-            return x + y;
-        }
-            /*In-browser exercise
-            SUCCESS
-            */
-            const greet = (name) => {
-                return `Hey ${name}!`;
-              };
+        // const sum = (x,y) => {
+        //     return x + y;
+        // }
+        //     /*In-browser exercise
+        //     SUCCESS
+        //     */
+        //     const greet = (name) => {
+        //         return `Hey ${name}!`;
+        //       };
               
-              console.log(greet('Blue'));
-              console.log(greet('Scout'));
-              console.log(greet('asfadf'));
+        //       console.log(greet('Blue'));
+        //       console.log(greet('Scout'));
+        //       console.log(greet('asfadf'));
 
         /*Implicit Returns*/
-         const isEven = num => ( //implicit return
+         const isEven = num => ( //implicit return, notice the use of parenthesis instead of curly braces
             num % 2 === 0
          );
-         const isEcen = num => num % 2 === 0; //one-liner implicit return
+         const isEven = num => num % 2 === 0; //one-liner implicit return
+
+         const add = (a, b) => a + b //implicit return; one-liner
+
+         
