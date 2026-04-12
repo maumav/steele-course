@@ -715,10 +715,15 @@ product.["name"] = "Muffin"
     /* setTimeout */
     
         // delays the execution of a function.
-        console.log("Hello...")
-        setTimeout(() => {
-            console.log("... are you still there?")
-        }, 3000) //3000 is 3 seconds.This section will run after 3 seconds.
-        console.log("Goodbye!")
+        // console.log("Hello...")
+        // setTimeout(() => {
+        //     console.log("... are you still there?")
+        // }, 3000) //3000 is 3 seconds.This section will run after 3 seconds.
+        // console.log("Goodbye!")
             // hello and goodbye will show as output right away in the console.
-            
+    
+    /*setInterval*/
+        const id = setInterval(()=> {
+            console.log(Math.random())
+        }, 2000);
+        //to clear/stop the function type clearInterval(id) 
