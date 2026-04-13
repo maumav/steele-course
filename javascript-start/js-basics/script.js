@@ -723,7 +723,59 @@ product.["name"] = "Muffin"
             // hello and goodbye will show as output right away in the console.
     
     /*setInterval*/
-        const id = setInterval(()=> {
-            console.log(Math.random())
-        }, 2000);
+        // const id = setInterval(()=> {
+        //     console.log(Math.random())
+        // }, 2000);
         //to clear/stop the function type clearInterval(id) 
+
+
+    /*.filter method*/
+     // creates a new array with all elements that pas the test implemented by the provided function.
+
+        // const movies1 = [
+        //                     {
+        //                         title: 'Up',
+        //                         score: 99,
+        //                         rank: 1
+        //                     },
+        //                     {
+        //                         title: 'Cinderella',
+        //                         score: 85,
+        //                         rank: 3
+        //                     },
+        //                     {
+        //                         title: 'Snow White',
+        //                         score: 95,
+        //                         rank: 2
+        //                     },
+        //                     {
+        //                         title: 'Aladdin',
+        //                         score: 60,
+        //                         rank: 4
+        //                     }
+        //                 ]
+        //             const goodMovies = movies1.filter(m => m.score > 80)
+        //             const goodTitles = goodMovies.map(m => m.title) //using .map
+        //             // movies1.filter(m => m.score > 80).map(m => m.title) //combining both in one line.
+        //             const badMovies = movies1.filter(m => m.score < 70)
+        //                     // the original array, movies1, is not changed.
+
+                /*In-browser exercise*/
+                 /*
+                                // function validUserNames(usernames) {
+                                //   'helloBye', 'stacy01WowYay', 'qwerty', '12345', '123456789011'
+                                //   validUserNames.filter(usernames => text.length > 10)
+                                // }
+                                My first attempt at writing filter method above.
+                                */
+
+                                // second attempt with help 
+                                // function validUserNames(usernames) {
+                                //     return usernames.filter(username => username.length <= 9);
+                                // }
+                                
+                                // console.log(validUserNames(usernames));
+
+
+/* SOME and EVERY; they are boolean methods which means will return TRUE or FALSE */
+    
