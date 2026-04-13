@@ -732,33 +732,33 @@ product.["name"] = "Muffin"
     /*.filter method*/
      // creates a new array with all elements that pas the test implemented by the provided function.
 
-        // const movies1 = [
-        //                     {
-        //                         title: 'Up',
-        //                         score: 99,
-        //                         rank: 1
-        //                     },
-        //                     {
-        //                         title: 'Cinderella',
-        //                         score: 85,
-        //                         rank: 3
-        //                     },
-        //                     {
-        //                         title: 'Snow White',
-        //                         score: 95,
-        //                         rank: 2
-        //                     },
-        //                     {
-        //                         title: 'Aladdin',
-        //                         score: 60,
-        //                         rank: 4
-        //                     }
-        //                 ]
-        //             const goodMovies = movies1.filter(m => m.score > 80)
-        //             const goodTitles = goodMovies.map(m => m.title) //using .map
-        //             // movies1.filter(m => m.score > 80).map(m => m.title) //combining both in one line.
-        //             const badMovies = movies1.filter(m => m.score < 70)
-        //                     // the original array, movies1, is not changed.
+                    //         const movies1 = [
+                    //         {
+                    //             title: 'Up',
+                    //             score: 99,
+                    //             rank: 1
+                    //         },
+                    //         {
+                    //             title: 'Cinderella',
+                    //             score: 85,
+                    //             rank: 3
+                    //         },
+                    //         {
+                    //             title: 'Snow White',
+                    //             score: 95,
+                    //             rank: 2
+                    //         },
+                    //         {
+                    //             title: 'Aladdin',
+                    //             score: 60,
+                    //             rank: 4
+                    //         }
+                    //     ]
+                    // const goodMovies = movies1.filter(m => m.score > 80)
+                    // const goodTitles = goodMovies.map(m => m.title) //using .map
+                    // // movies1.filter(m => m.score > 80).map(m => m.title) //combining both in one line.
+                    // const badMovies = movies1.filter(m => m.score < 70)
+                    //         // the original array, movies1, is not changed.
 
                 /*In-browser exercise*/
                  /*

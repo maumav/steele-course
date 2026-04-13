@@ -212,5 +212,27 @@ CSS Units
 
        with other properties, 1em is equal o the computed font size of element itself.
         
+    rem
+    relative to the root html element's font size. If the root font-size is 20px,
+    1 rem is always 20px, 2rem is 40px etc.s
 
 coolors color palette website
+
+Other css properties
+    rgba 
+        a stands for alpha, transparency property
+
+    opacity affects the text inside
+
+    Position Property:
+     see code 
+
+    Transitions:
+    other property possible for transitions 
+        property name
+        duration
+        timing function
+        delay
+
+    Transform:
+    skew, rotate, like photoshop
