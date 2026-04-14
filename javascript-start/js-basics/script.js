@@ -778,4 +778,20 @@ product.["name"] = "Muffin"
 
 
 /* SOME and EVERY; they are boolean methods which means will return TRUE or FALSE */
-    
+    // const exams = [80, 98, 92, 78, 77, 90, 89, 84, 81, 77]
+    // exams.every(score => score <= 75)
+
+    // //example
+    // movies.some(movie => movie.year > 2015)
+
+        /*In-browser exercise
+        Define a function called allEvens that accepts a single array of numbers.  
+        If the array contains all even numbers, return true.  
+        Otherwise, return false. 
+        */
+        function allEvens(numbers) {
+            return numbers.every(num => num % 2 === 0);
+          }
+          // The => arrow means "take this input, and return this output":
+            // Left side → the parameter(s) it receives (num)
+            // Right side → the expression it returns (num % 2 === 0)
