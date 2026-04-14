@@ -789,9 +789,10 @@ product.["name"] = "Muffin"
         If the array contains all even numbers, return true.  
         Otherwise, return false. 
         */
+       //with help
         function allEvens(numbers) {
             return numbers.every(num => num % 2 === 0);
           }
-          // The => arrow means "take this input, and return this output":
+          //Claude AI: The => arrow means "take this input, and return this output":
             // Left side → the parameter(s) it receives (num)
             // Right side → the expression it returns (num % 2 === 0)
