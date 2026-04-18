@@ -796,3 +796,50 @@ product.["name"] = "Muffin"
           //Claude AI: The => arrow means "take this input, and return this output":
             // Left side → the parameter(s) it receives (num)
             // Right side → the expression it returns (num % 2 === 0)
+
+/*REDUCE*/
+    //executes a reducer function on each element of the array resulting in a single value.
+    //     let movies1 = [
+    //                         {
+    //                             title: 'Up',
+    //                             score: 99,
+    //                             rank: 1
+    //                         },
+    //                         {
+    //                             title: 'Cinderella',
+    //                             score: 85,
+    //                             rank: 3
+    //                         },
+    //                         {
+    //                             title: 'Snow White',
+    //                             score: 95,
+    //                             rank: 2
+    //                         },
+    //                         {
+    //                             title: 'Aladdin',
+    //                             score: 60,
+    //                             rank: 4
+    //                         }
+    //                     ]
+
+    // const highestRated = movies1.reduce((bestMovie, currentMovie) => {
+    //     if (currentMovie.score > bestMovie.score){
+    //         return currentMovie;
+    //     }
+    //     return bestMovie;
+    // })
+
+    /*Arrow Functions & this*/
+    const person = {
+        firstName: 'Viggo',
+        lastName: 'Mortensen',
+        fullName: function () {
+            return `${this.firstName} ${this.lastName}`
+        },
+        shoutName: function () {
+            setTimeout(() => {
+                console.log(this);
+                console.log(this.fullName())
+            }, 3000)
+        }
+    }
