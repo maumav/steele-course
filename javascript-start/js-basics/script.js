@@ -830,16 +830,29 @@ product.["name"] = "Muffin"
     // })
 
     /*Arrow Functions & this*/
-    const person = {
-        firstName: 'Viggo',
-        lastName: 'Mortensen',
-        fullName: function () {
-            return `${this.firstName} ${this.lastName}`
-        },
-        shoutName: function () {
-            setTimeout(() => {
-                console.log(this);
-                console.log(this.fullName())
-            }, 3000)
-        }
-    }
+    // const person = {
+    //     firstName: 'Viggo',
+    //     lastName: 'Mortensen',
+    //     fullName: function () {
+    //         return `${this.firstName} ${this.lastName}`
+    //     },
+    //     shoutName: function () {
+    //         setTimeout(() => {
+    //             console.log(this);
+    //             console.log(this.fullName())
+    //         }, 3000)
+    //     }
+    // }
+
+/*Newer Javascript Features */
+
+//default parameters
+          function greet(person, msg = "Hey there", punc = "!") {
+            console.log(`${msg}, ${person}${punc}`)
+          }
+
+//spread in function calls
+          Math.max(2,5,1) //retro way of looking for max number.
+
+          const nums = [2,5,1]
+          Math.max(...nums) //new way of outputting the max number
