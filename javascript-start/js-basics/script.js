@@ -847,12 +847,36 @@ product.["name"] = "Muffin"
 /*Newer Javascript Features */
 
 //default parameters
-          function greet(person, msg = "Hey there", punc = "!") {
-            console.log(`${msg}, ${person}${punc}`)
-          }
+        //   function greet(person, msg = "Hey there", punc = "!") {
+        //     console.log(`${msg}, ${person}${punc}`)
+        //   }
 
 //spread in function calls
-          Math.max(2,5,1) //retro way of looking for max number.
+        //   Math.max(2,5,1) //retro way of looking for max number.
 
-          const nums = [2,5,1]
-          Math.max(...nums) //new way of outputting the max number
+        //   const nums = [2,5,1]
+        //   Math.max(...nums) //new way of outputting the max number
+
+//spread in array literals
+        //   const cats = ['Bluey', 'Scout', 'Rocket'];
+        //   const dogs = ['Rusty', 'Wyatt'];
+
+        //   const allPets = [...cats, ...dogs] //if i add into allPets a new name, the cats and dogs seperate array will not change
+        //     //only the allPets array.
+
+//spread with objects literals
+          const feline = { legs: 4, family: 'Felidae' };
+          const canine = { isFurry: true, family: 'Caninae' };
+          const catDog = {...feline, ...canine};
+
+//rest parameters
+          function raceResults(gold, silver, ...everyoneElse) {
+            console.log(`Gold goes to: ${gold}`)
+            console.log(`Silver goes to: ${silver}`)
+            console.log(`Thanks to everyone else: ${everyoneElse}`)
+          }
+
+          raceResults('Tammy', 'Todd', 'Tina', 'Trevor', 'Travis', 'Jake') //The names will go into the respective medals
+
+//destructuring arrays
+          
