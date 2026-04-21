@@ -865,18 +865,35 @@ product.["name"] = "Muffin"
         //     //only the allPets array.
 
 //spread with objects literals
-          const feline = { legs: 4, family: 'Felidae' };
-          const canine = { isFurry: true, family: 'Caninae' };
-          const catDog = {...feline, ...canine};
+//           const feline = { legs: 4, family: 'Felidae' };
+//           const canine = { isFurry: true, family: 'Caninae' };
+//           const catDog = {...feline, ...canine};
 
-//rest parameters
-          function raceResults(gold, silver, ...everyoneElse) {
-            console.log(`Gold goes to: ${gold}`)
-            console.log(`Silver goes to: ${silver}`)
-            console.log(`Thanks to everyone else: ${everyoneElse}`)
-          }
+// //rest parameters
+//           function raceResults(gold, silver, ...everyoneElse) {
+//             console.log(`Gold goes to: ${gold}`)
+//             console.log(`Silver goes to: ${silver}`)
+//             console.log(`Thanks to everyone else: ${everyoneElse}`)
+//           }
 
-          raceResults('Tammy', 'Todd', 'Tina', 'Trevor', 'Travis', 'Jake') //The names will go into the respective medals
+//           raceResults('Tammy', 'Todd', 'Tina', 'Trevor', 'Travis', 'Jake') //The names will go into the respective medals
 
 //destructuring arrays
-          
+          const score = [1234, 5678, 9101112, 13141516, 171819120];
+          const [gold, silver, bronze, ...everyonElse ] = score;
+          //the original variable array is not altered.
+
+//destructuring objects
+          const user = {
+            email: 'brucewayne@mail.com',
+            password: 'bruce123',
+            born: 1988,
+            firstName: 'Bruce',
+            lastName: 'Wayne',
+            city: 'San Francisco',
+            state: 'California'
+          }
+
+          const {email, firstName, lastName, city} = user;
+          const { born: birthYear, lastName: lastName2 } = user;
+          //the original variable objects is not altered.
