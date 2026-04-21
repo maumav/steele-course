@@ -899,12 +899,12 @@ product.["name"] = "Muffin"
           //the original variable objects is not altered.
 
 //destructuring parameters
-          function fullName({ firstName, lastName }) {
-            return `${firstName} ${lastName}`
-          }
-          //type fullName(user) in console to get the function working.
+        //   function fullName({ firstName, lastName }) {
+        //     return `${firstName} ${lastName}`
+        //   }
+        //   //type fullName(user) in console to get the function working.
 
-            //using the movies variable
-          movies.map(({title, score, year}) {
-            return `${title} (${year}) is rated ${score}`
-          })
+        //     //using the movies variable
+        //   movies.map(({title, score, year}) {
+        //     return `${title} (${year}) is rated ${score}`
+        //   })
