@@ -897,3 +897,14 @@ product.["name"] = "Muffin"
           const {email, firstName, lastName, city} = user;
           const { born: birthYear, lastName: lastName2 } = user;
           //the original variable objects is not altered.
+
+//destructuring parameters
+          function fullName({ firstName, lastName }) {
+            return `${firstName} ${lastName}`
+          }
+          //type fullName(user) in console to get the function working.
+
+            //using the movies variable
+          movies.map(({title, score, year}) {
+            return `${title} (${year}) is rated ${score}`
+          })
