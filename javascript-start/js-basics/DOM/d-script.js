@@ -36,3 +36,10 @@ document.querySelector('a[title="Java"]')
     const firstLink = document.querySelector('a')
     firstLink.getAttribute('href')
     firstLink.getAttribute('id')
+
+    //in console example
+    const input2 = document.querySelector('input[type="text"]') 
+    input2.type 
+
+    //in-browser exercise. Change the img source 
+    document.querySelector('img').src = 'https://images.unsplash.com/photo-1581061090142-c2cd0ec9f021?w=200'
