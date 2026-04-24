@@ -18,7 +18,7 @@ Selecting:
 //query selector
     //one method to select element name, id or class
 
-document.querySelector('a[title="Java"') 
+document.querySelector('a[title="Java"]') 
     //selecting an achor tag with attribute of Java.
 
     /*In-browser exercise*/
@@ -31,3 +31,8 @@ document.querySelector('a[title="Java"')
     
     /*In-browser exercise*/
     //  document.querySelector('span').innerHTML ='Disgusting'
+
+    //getAttribute example 
+    const firstLink = document.querySelector('a')
+    firstLink.getAttribute('href')
+    firstLink.getAttribute('id')
