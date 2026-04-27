@@ -41,5 +41,26 @@ document.querySelector('a[title="Java"]')
     const input2 = document.querySelector('input[type="text"]') 
     input2.type 
 
-    //in-browser exercise. Change the img source 
+    //in-browser exercise. Change the img source and alt text
+        //first attempt
     document.querySelector('img').src = 'https://images.unsplash.com/photo-1581061090142-c2cd0ec9f021?w=200'
+        //with help
+        const img = document.querySelector('img');
+        img.src = 'https://images.unsplash.com/photo-1581061090142-c2cd0ec9f021?w=200';
+        img.alt = 'chicken';
+
+    //in-browser exercise
+        //first attempt
+            // const container = document.querySelector('div[id="container"]');
+            // container.textAlignment = 'center';
+
+            // const img = document.querySelector('img').src; 
+            // img.width  = '150px';
+            // img.borderRadius = '50%'
+
+        //second attempt with help
+        const container = document.querySelector('div#container');
+        container.style.textAlign = 'center';
+        const img = document.querySelector('img');
+        img.style.width = '150px';
+        img.style.borderRadius = '50%';
