@@ -76,3 +76,8 @@ const h2 = document.querySelector('h2')
 // h2.getAttribute('class')
 // h2.setAttribute('class', 'purple')
 h2.classList.add('purple')
+
+    //in-browser exercise with help
+    document.querySelectorAll('li').forEach(el => {
+        el.classList.toggle('highlight');
+      });
