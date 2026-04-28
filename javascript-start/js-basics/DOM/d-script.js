@@ -64,3 +64,15 @@ document.querySelector('a[title="Java"]')
         const img = document.querySelector('img');
         img.style.width = '150px';
         img.style.borderRadius = '50%';
+
+            // to finish
+        // Coding Exercise 55: Magical Forest Circle Exercise
+        // Start
+        // Coding Exercise 56: Rainbow Text Exercise
+
+//selecting classes and manipulating them
+
+const h2 = document.querySelector('h2')
+// h2.getAttribute('class')
+// h2.setAttribute('class', 'purple')
+h2.classList.add('purple')
