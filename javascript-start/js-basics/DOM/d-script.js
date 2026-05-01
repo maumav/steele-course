@@ -59,16 +59,34 @@ document.querySelector('a[title="Java"]')
             // img.borderRadius = '50%'
 
         //second attempt with help
-        const container = document.querySelector('div#container');
-        container.style.textAlign = 'center';
-        const img = document.querySelector('img');
-        img.style.width = '150px';
-        img.style.borderRadius = '50%';
+        // const container = document.querySelector('div#container');
+        // container.style.textAlign = 'center';
+        // const img = document.querySelector('img');
+        // img.style.width = '150px';
+        // img.style.borderRadius = '50%';
 
             // to finish
         // Coding Exercise 55: Magical Forest Circle Exercise
-        // Start
+        // const container = document.querySelector('div#container');
+        // container.style.textAlign = 'center';
+        
+        // const img = document.querySelector('img');
+        // img.style.width = '150px';
+        // img.style.borderRadius = '50%';
+       
+        
         // Coding Exercise 56: Rainbow Text Exercise
+            //try 1
+            // const letters = document.querySelectorAll('span');
+            // for (letter in letters) {
+            //    let i = 0;
+            // }
+
+            //try2
+            // const letters = document.querySelectorAll('span');
+            // for (let i = 0; i < letters.length; i++) {
+            //     letters[i].style.color = colors[i];
+            // }
 
 //selecting classes and manipulating them
 
@@ -95,7 +113,6 @@ h2.classList.add('purple')
         el.classList.toggle('highlight');
       });
 
-
       //try 1 corrected
     // const highL = document.querySelectorAll('li.highlight');
     // highL.forEach(el => el.classList.toggle('highlight', true));  // adds
@@ -106,4 +123,15 @@ h2.classList.add('purple')
     // highL.classList.toggle('highlight', true);  // adds
     // highL.classList.toggle('highlight', false); // removes
 
-    
+//Append and appendChild
+    //add new content to the document by setting a variable first.
+    // const newImg = document.createElement('img') 
+    // newImg.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Poule_soie_coucou.jpg/500px-Poule_soie_coucou.jpg'
+
+    //append(send) the newImg to the document to be seen by users.
+    // document.body.appendChild(newImg)
+    // <img src="https://upload.wikimedia…px-Poule_soie_coucou.jpg">
+
+    //add the css square to the newImg 
+    // newImg.classList.add('square') 
+
