@@ -77,7 +77,33 @@ const h2 = document.querySelector('h2')
 // h2.setAttribute('class', 'purple')
 h2.classList.add('purple')
 
+/*
+//try 1
+// const highL = document.querySelectorAll('li.highlight');
+// highL.classList.toggle('highlight', true)
+// highL.classList.toggle('highlight', false)
+
+//try 2
+// const highL = document.querySelector('li.highlight'); // first match only
+// highL.classList.toggle('highlight', true);
+// const highL.classList.toggle('highlight', false);
+
+*/
+
     //in-browser exercise with help
     document.querySelectorAll('li').forEach(el => {
         el.classList.toggle('highlight');
       });
+
+
+      //try 1 corrected
+    // const highL = document.querySelectorAll('li.highlight');
+    // highL.forEach(el => el.classList.toggle('highlight', true));  // adds
+    // highL.forEach(el => el.classList.toggle('highlight', false)); // remove
+
+    //try 2 corrected
+    // const highL = document.querySelector('li.highlight');
+    // highL.classList.toggle('highlight', true);  // adds
+    // highL.classList.toggle('highlight', false); // removes
+
+    
